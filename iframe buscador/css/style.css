@@ -1,0 +1,916 @@
+/*=============================================================
+
+
+===============================================================
+
+    CAMPOS DEL FORM: a partir de la linea 572
+
+    BUTTON BACKGROUND-COLOR: #edcb9a; (line 746)
+    BUTTON COLOR: #333; (line 747)
+
+    BUTTON HOVER BACKGROUND-COLOR: #d8ba8e; (line 760)
+    BUTTON HOVER COLOR: #fff; (line 762)
+
+=============================================================*/
+
+/* ===========================================
+// 01. GLOBAL
+=============================================*/
+
+/* ===== 01.1 RESETS ===== */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* ===== 01.2 TYPOGRAPHY ===== */
+
+h1, h2, h3, h4, h5, h6, button {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 28px;
+}
+
+a {
+  color: #87898b;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+a:hover, a:focus, a:active {
+  color: #333333;
+  text-decoration: none;
+  outline: none;
+  background: none;
+}
+
+/* ===========================================
+// 02. GENERAL
+=============================================*/
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+.col-xs-12 {
+  width: 100%;
+}
+.col-xs-11 {
+  width: 91.66666667%;
+}
+.col-xs-10 {
+  width: 83.33333333%;
+}
+.col-xs-9 {
+  width: 75%;
+}
+.col-xs-8 {
+  width: 66.66666667%;
+}
+.col-xs-7 {
+  width: 58.33333333%;
+}
+.col-xs-6 {
+  width: 50%;
+}
+.col-xs-5 {
+  width: 41.66666667%;
+}
+.col-xs-4 {
+  width: 33.33333333%;
+}
+.col-xs-3 {
+  width: 25%;
+}
+.col-xs-2 {
+  width: 16.66666667%;
+}
+.col-xs-1 {
+  width: 8.33333333%;
+}
+.mt0 {
+  margin-top: 0px
+}
+
+.mt5 {
+  margin-top: 5px
+}
+
+.mt10 {
+  margin-top: 10px
+}
+
+.mt15 {
+  margin-top: 15px
+}
+
+.mt20 {
+  margin-top: 20px
+}
+
+.mt25 {
+  margin-top: 25px
+}
+
+.mt30 {
+  margin-top: 30px
+}
+
+.mt35 {
+  margin-top: 35px
+}
+
+.mt40 {
+  margin-top: 40px
+}
+
+.mt45 {
+  margin-top: 45px
+}
+
+.mt50 {
+  margin-top: 50px
+}
+
+.mt55 {
+  margin-top: 55px
+}
+
+.mt60 {
+  margin-top: 60px
+}
+
+.mt65 {
+  margin-top: 65px
+}
+
+.mt70 {
+  margin-top: 70px
+}
+
+.mt75 {
+  margin-top: 75px
+}
+
+.mt80 {
+  margin-top: 80px
+}
+
+.mt85 {
+  margin-top: 85px
+}
+
+.mt90 {
+  margin-top: 90px
+}
+
+.mt95 {
+  margin-top: 95px
+}
+
+.mt100 {
+  margin-top: 100px
+}
+
+.mt-5 {
+  margin-top: -5px
+}
+
+.mt-10 {
+  margin-top: -10px
+}
+
+.mt-15 {
+  margin-top: -15px
+}
+
+.mt-20 {
+  margin-top: -20px
+}
+
+.mt-25 {
+  margin-top: -25px
+}
+
+.mt-30 {
+  margin-top: -30px
+}
+
+.mt-35 {
+  margin-top: -35px
+}
+
+.mt-40 {
+  margin-top: -40px
+}
+
+.mt-45 {
+  margin-top: -45px
+}
+
+.mt-50 {
+  margin-top: -50px
+}
+
+.mb0 {
+  margin-bottom: 0px
+}
+
+.mb5 {
+  margin-bottom: 5px
+}
+
+.mb10 {
+  margin-bottom: 10px
+}
+
+.mb15 {
+  margin-bottom: 15px
+}
+
+.mb20 {
+  margin-bottom: 20px
+}
+
+.mb25 {
+  margin-bottom: 25px
+}
+
+.mb30 {
+  margin-bottom: 30px
+}
+
+.mb35 {
+  margin-bottom: 35px
+}
+
+.mb40 {
+  margin-bottom: 40px
+}
+
+.mb45 {
+  margin-bottom: 45px
+}
+
+.mb50 {
+  margin-bottom: 50px
+}
+
+.mb55 {
+  margin-bottom: 55px
+}
+
+.mb60 {
+  margin-bottom: 60px
+}
+
+.mb65 {
+  margin-bottom: 65px
+}
+
+.mb70 {
+  margin-bottom: 70px
+}
+
+.mb75 {
+  margin-bottom: 75px
+}
+
+.mb80 {
+  margin-bottom: 80px
+}
+
+.mb85 {
+  margin-bottom: 85px
+}
+
+.mb90 {
+  margin-bottom: 90px
+}
+
+.mb95 {
+  margin-bottom: 95px
+}
+
+.mb100 {
+  margin-bottom: 100px
+}
+
+.mb-5 {
+  margin-bottom: -5px
+}
+
+.mb-10 {
+  margin-bottom: -10px
+}
+
+.mb-15 {
+  margin-bottom: -15px
+}
+
+.mb-20 {
+  margin-bottom: -20px
+}
+
+.mb-25 {
+  margin-bottom: -25px
+}
+
+.mb-30 {
+  margin-bottom: -30px
+}
+
+.mb-35 {
+  margin-bottom: -35px
+}
+
+.mb-40 {
+  margin-bottom: -40px
+}
+
+.mb-45 {
+  margin-bottom: -45px
+}
+
+.mb-50 {
+  margin-bottom: -50px
+}
+
+.pt0 {
+  padding-top: 0px
+}
+
+.pt5 {
+  padding-top: 5px
+}
+
+.pt10 {
+  padding-top: 10px
+}
+
+.pt15 {
+  padding-top: 15px
+}
+
+.pt20 {
+  padding-top: 20px
+}
+
+.pt25 {
+  padding-top: 25px
+}
+
+.pt30 {
+  padding-top: 30px
+}
+
+.pt35 {
+  padding-top: 35px
+}
+
+.pt40 {
+  padding-top: 40px
+}
+
+.pt45 {
+  padding-top: 45px
+}
+
+.pt50 {
+  padding-top: 50px
+}
+
+.pt55 {
+  padding-top: 55px
+}
+
+.pt60 {
+  padding-top: 60px
+}
+
+.pt65 {
+  padding-top: 65px
+}
+
+.pt70 {
+  padding-top: 70px
+}
+
+.pt75 {
+  padding-top: 75px
+}
+
+.pt80 {
+  padding-top: 80px
+}
+
+.mt85 {
+  padding-top: 85px
+}
+
+.pt90 {
+  padding-top: 90px
+}
+
+.pt95 {
+  padding-top: 95px
+}
+
+.pt100 {
+  padding-top: 100px
+}
+
+.pb0 {
+  padding-bottom: 0px
+}
+
+.pb5 {
+  padding-bottom: 5px
+}
+
+.pb10 {
+  padding-bottom: 10px
+}
+
+.pb15 {
+  padding-bottom: 15px
+}
+
+.pb20 {
+  padding-bottom: 20px
+}
+
+.pb25 {
+  padding-bottom: 25px
+}
+
+.pb30 {
+  padding-bottom: 30px
+}
+
+.mb35 {
+  padding-bottom: 35px
+}
+
+.pb40 {
+  padding-bottom: 40px
+}
+
+.pb45 {
+  padding-bottom: 45px
+}
+
+.pb50 {
+  padding-bottom: 50px
+}
+
+.pb55 {
+  padding-bottom: 55px
+}
+
+.pb60 {
+  padding-bottom: 60px
+}
+
+.pb65 {
+  padding-bottom: 65px
+}
+
+.pb70 {
+  padding-bottom: 70px
+}
+
+.pb75 {
+  padding-bottom: 75px
+}
+
+.pb80 {
+  padding-bottom: 80px
+}
+
+.pb85 {
+  padding-bottom: 85px
+}
+
+.pb90 {
+  padding-bottom: 90px
+}
+
+.pb95 {
+  padding-bottom: 95px
+}
+
+.pb100 {
+  padding-bottom: 100px
+}
+
+.pl10{
+
+  padding-left: 10px;
+}
+
+.nop {
+  padding: 0 !important;
+}
+
+.nopr {
+  padding-right: 0 !important;
+}
+
+.nopl {
+  padding-left: 0 !important;
+}
+
+.nom {
+  margin: 0 !important
+}
+
+.nomr {
+  margin-right: 0 !important;
+}
+
+.noml {
+  margin-left: 0 !important;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+/* ===== 02.1 FORMS ===== */
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  color: #333333;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom:0px;
+}
+
+label a {
+  margin-left: 5px;
+  color: #b5bec4;
+}
+
+.form-control, .form-control[readonly] {
+  background: #f7f8f9;
+  border: 1px solid #efefef;
+  height: 45px;
+  border-radius: 0;
+  padding: 10px;
+  color: #333333;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+  font-size: 13px;
+  line-height: 25px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.form-control:focus {
+  background: #efefef;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #e3e3e3;
+}
+
+/* BOOTSTRAP SELECT */
+
+.bootstrap-select {
+  display: block !important;
+}
+
+.form-control.bootstrap-select button, .form-control.bootstrap-select button.dropdown-toggle {
+  background: #f7f8f9;
+  border: 1px solid #efefef;
+  height: 45px;
+  border-radius: 0;
+  padding: 10px 10px;
+  color: #afafaf;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.form-control.bootstrap-select button .bs-caret {
+  margin-right: -20px;
+}
+
+.form-control.bootstrap-select button:hover, .form-control.bootstrap-select button:active, .form-control.bootstrap-select button:focus {
+  outline: none !important;
+  background-color: transparent !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border-color: #e3e3e3 !important;
+}
+
+.form-control.bootstrap-select .popover-title {
+  background: #f7f8f9;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+  color: #afafaf;
+  text-transform: uppercase;
+  padding: 8px 10px;
+  border-bottom: 1px solid #efefef;
+}
+
+.form-control.bootstrap-select .dropdown-menu {
+  border: 1px solid #efefef;
+  -webkit-box-shadow: 0 12px 26px 0 rgba(178, 178, 178, .13);
+  box-shadow: 0 12px 26px 0 rgba(178, 178, 178, .13);
+  border-radius: 2px;
+  padding-bottom: 0;
+  margin-top: 15px;
+}
+
+.form-control.bootstrap-select .dropdown-menu a.dropdown-item, .form-control.bootstrap-select .btn-info:not(:disabled):not(.disabled):active {
+  color: #afafaf;
+}
+
+.form-control.bootstrap-select .dropdown-menu a.dropdown-item:active, .form-control.bootstrap-select .dropdown-menu a.dropdown-item.active {
+  background: #efefef;
+  color: #afafaf;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.form-control.bootstrap-select .dropdown-menu a.dropdown-item span.dropdown-item-inner {
+  outline: none;
+}
+
+.form-control.bootstrap-select .dropdown-menu .dropdown-header {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #a4a4a4;
+}
+
+.form-control.bootstrap-select .dropdown-menu a.dropdown-item span.dropdown-item-inner.opt {
+  padding-left: 0;
+}
+
+.form-control.bootstrap-select.btn-group.show-tick .dropdown-menu a.selected span.dropdown-item-inner span.check-mark {
+  right: 0;
+}
+
+.form-control.bootstrap-select button.close {
+  margin-top: -10px;
+  background: transparent !important;
+  border: none;
+}
+
+.form-control.guestspicker {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+textarea {
+  max-width: 100%;
+  min-height: 50px;
+}
+
+::-webkit-input-placeholder {
+  color: #333333 !important;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+:-moz-placeholder {
+  color: #333333 !important;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+::-moz-placeholder {
+  color: #333333 !important;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+:-ms-input-placeholder {
+  color: #333333 !important;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+
+
+/* ===== 02.3 BUTTONS ===== */
+
+.btn {
+  background: #edcb9a;
+  color: #333;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 2px;
+  padding: 10px 20px;
+  -webkit-appearance: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.btn:hover, .btn:focus, .btn:active {
+  background: #d8ba8e;
+  cursor: pointer;
+  color: #fff;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.btn-fw {
+  width: 100%;
+}
+
+.btn i {
+  margin-right: 10px;
+}
+
+.btn.btn-gray {
+  background: #d7d8d9;
+  color: #fff;
+}
+
+.btn.btn-gray:hover, .btn.btn-gray:focus, .btn.btn-gray:active {
+  background: #d7d8d9;
+}
+
+.btn.btn-dark {
+  background: #444;
+}
+
+.btn.btn-dark:hover, .btn.btn-dark:focus, .btn.btn-dark:active {
+  background: #222;
+  border-color: #222;
+}
+
+.btn.btn-blue {
+  background: #1dc1f8;
+  color: #fff;
+}
+
+.btn.btn-blue:hover, .btn.btn-blue:focus, .btn.btn-blue:active {
+  background: #1aadde;
+}
+
+.btn.btn-lg {
+  padding: 14px 22px;
+  font-size: 22px;
+}
+
+.btn.btn-sm {
+  padding: 7px 18px;
+  font-size: 14px;
+}
+
+.btn.btn-xs {
+  padding: 5px 10px;
+  font-size: 10px;
+}
+
+.btn.btn-rounded {
+  border-radius: 50px;
+}
+
+/* ===========================================
+// 07. BOOKING FORMS
+=============================================*/
+
+/* ===== 07.1 GENERAL ===== */
+
+/* Datepicker */
+
+.datepicker.form-control {
+  cursor: pointer;
+}
+
+.daterangepicker {
+  padding: 10px;
+  margin-top: 15px;
+  border: 1px solid #efefef;
+  -webkit-box-shadow: 0 12px 26px 0 rgba(178, 178, 178, .13);
+  box-shadow: 0 12px 26px 0 rgba(178, 178, 178, .13);
+  border-radius: 2px;
+}
+
+.daterangepicker:before {
+  border-bottom: 7px solid #efefef;
+  z-index: 9;
+}
+
+.daterangepicker .input-mini {
+  border: 1px solid #efefef;
+  border-radius: 0px;
+  color: #a4a4a4;
+  height: 42px;
+  line-height: 42px;
+  display: block;
+  vertical-align: middle;
+  margin: 0 0 5px 0;
+  padding: 0 6px 0 28px;
+  width: 100%;
+}
+
+.daterangepicker .input-mini.active {
+  border: 1px solid #e3e3e3;
+  border-radius: 0px;
+}
+
+.daterangepicker .daterangepicker_input i {
+  position: absolute;
+  left: 8px;
+  top: 14px;
+  font-size: 13px;
+}
+
+.daterangepicker table {
+  font-size: 14px;
+}
+
+.daterangepicker .ranges {
+  display: none;
+}
+
+.daterangepicker .calendar-title {
+  margin: 5px 0;
+  color: #b5bec4;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.daterangepicker td.start-date, .daterangepicker td.end-date, .daterangepicker td.available:hover {
+  background: #d8ba8e !important;
+  color: #fff;
+}
+
+.daterangepicker td.in-range {
+  background: #edcb9a;
+  color: #fff;
+}
+
+.daterangepicker .calendar-table td.disabled, .daterangepicker option.disabled {
+  color: #e3e3e3;
+}
+
+.daterangepicker .calendar th {
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+
+.daterangepicker td.start-date {
+  border-radius: 20px 0 0 20px;
+}
+
+.daterangepicker td.end-date {
+  border-radius: 0 20px 20px 0;
+}
